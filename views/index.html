@@ -16,9 +16,24 @@
   <body>
     <header>
       <h1>Timestamp Microservice</h1>
+      <h3><a href="https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice/">freeCodeCamp API Project</a></h3>
     </header>
 
-    <main></main>
+    <main>
+      <h3>About</h3>
+      <p>This is a simple api built with Express.</p>
+
+      <h3>How to use</h3>
+      <p>The API endpoint is <code>GET [project_url]/api/timestamp/:date_string?</code></p>
+      <p>A date string is valid if it can be successfully parsed by new Date(date_string). Note that the unix timestamp needs to be an integer (not a string) specifying milliseconds.</p>
+      <p>If the date string is empty, the service will return the current timestamp.</p>
+      <p>If the date string is valid the api returns a JSON having the structure 
+        <code>{"unix": 1479663089000 ,"utc": "Sun, 20 Nov 2016 17:31:29 GMT"}</code>.
+      </p>
+      <p>If the date string is invalid the api returns a JSON having the structure 
+        <code>{"error" : "Invalid Date" }</code>.
+      </p>
+    </main>
 
     <footer>
       Made with <a href="https://glitch.com">Glitch</a>!
