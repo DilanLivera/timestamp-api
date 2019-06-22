@@ -49,6 +49,7 @@ main > h3 {
 }
 
 code {
+  word-wrap: break-word;
   font-family: monospace;
   padding: 2px;
   color: black;
@@ -60,4 +61,34 @@ footer {
   padding-top: 25px;
   border-top: 1px solid lightgrey;
   font-size: 12px;
+}
+
+@media screen and (max-width: 900px) {
+  header, footer, main {
+    width: 95%;
+  }
+
+  main {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  main > h3 {
+    padding-top: 10px;
+  }  
+}
+
+@media screen and (min-width: 1200px) {
+  header, footer, main {
+    width: 85%;
+  }
+
+  main {
+    padding-top: 80px;
+    padding-bottom: 160px;
+  }
+
+  main > h3 {
+    padding-top: 10px;
+  }  
 }
