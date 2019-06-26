@@ -6,4 +6,4 @@ This app was built using Express web application framework on [Glitch](https://g
 
 [Live Demo](https://humane-seer.glitch.me/)
 
-![alt text](https://github.com/DilanLivera/timestamp-microservice/blob/master/public/img/timestamp-microservice.jpg)
+![alt text](https://github.com/DilanLivera/timestamp-microservice/blob/master/public/img/timestamp-microservice-img.jpg)
